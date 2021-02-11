@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="carassignment.xsl"?>
+<cars>
+    <car year="2002" manufacturer="Jet" model="Sardine Can 1.6L">
+        <meter>95664</meter>
+        <color>silver</color>
+        <price>99900</price>
+        <dealersecurity buyback="no"/>
+    </car>
+    <car year="2004" manufacturer="Jet" model="Sardine Can 2.0">
+        <meter>81283</meter>
+        <color>red</color>
+        <price>129900</price>
+        <dealersecurity buyback="no"/>
+    </car>
+    <car year="2007" manufacturer="Jet" model="Sardine Can 2.0">
+        <meter>49741</meter>
+        <color>black</color>
+        <price>169999</price>
+        <dealersecurity buyback="yes"/>
+    </car>
+</cars>
