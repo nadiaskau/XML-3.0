@@ -13,10 +13,12 @@
     <style>
         body {font-family: 'Arial';}
         table, td, th {border: 1px solid blue;}
-        #carColor {background-color: $backgroundColor;}
+        h1 {background-color: black; color:white; text-align: center;}
+        #container {display:flex; flex-direction: column; width: 70%; margin: auto;}
     </style>
     <body>
-    <h1>Cars</h1>
+    <div id="container">
+    <h1>Second Hand Sardine Cans</h1>
     <table> <tr>
         <th> Make </th>
         <th> Model </th>
@@ -54,6 +56,7 @@
         </tr>
       
         </table>
+    </div>
     </body>
     </html>
   </xsl:template>
